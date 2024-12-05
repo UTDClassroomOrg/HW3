@@ -8,6 +8,9 @@ The program is divided into multiple parts as described below:
 
 ---
 
+Part G: Code Coverage
+![TestCoverageHW3](https://github.com/user-attachments/assets/7403aa6b-373f-4edb-9c06-ce594bcd6620)
+
 ## Part A: Brief Functional Description
 
 The `calcAverage` method computes the average of a subarray of integers from an array. The subarray includes elements starting from index `k` to the end of the array. If the subarray exists (`n > 0`), it calculates the average using integer division. If `k` is out of bounds or the subarray is empty, the method returns `0`.
@@ -94,7 +97,3 @@ public int calcAverage(int k, int[] list) {
 
     return (count > 0) ? (sum / count) : 0;
 }
-
-
-Part G: Code Coverage
-![TestCoverageHW3](https://github.com/user-attachments/assets/7403aa6b-373f-4edb-9c06-ce594bcd6620)
